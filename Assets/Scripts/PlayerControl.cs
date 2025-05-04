@@ -7,7 +7,7 @@ public class PlayerControl : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    public float moveforce = 10f;
+    public float moveforce = 8f;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
