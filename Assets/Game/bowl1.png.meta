@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: f550a6bca9a070848bb54e2d42457a9a
+guid: 392836316bae0d6408229d101e86e17b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8316064767073791287
-    second: raindrop_0
+      213: 5001746023961310147
+    second: bowl1_0
+  - first:
+      213: -5828422172342623775
+    second: bowl1_1
+  - first:
+      213: -7118293112182036885
+    second: bowl1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +158,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: raindrop_0
+      name: bowl1_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 55
-        width: 914
-        height: 946
+        x: 159
+        y: 582
+        width: 706
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +173,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73d239268d8986370800000000000000
-      internalID: 8316064767073791287
+      spriteID: 3c3bfe62285c96540800000000000000
+      internalID: 5001746023961310147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowl1_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 431
+        width: 694
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1e1802ae84d1fa0800000000000000
+      internalID: -5828422172342623775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowl1_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 88
+        width: 346
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66a749f02eb63d90800000000000000
+      internalID: -7118293112182036885
       vertices: []
       indices: 
       edges: []
