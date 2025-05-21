@@ -19,10 +19,12 @@ public class PlayerControl : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         var HorizontalInput= Input.GetAxis("Horizontal");
         UnityEngine.Vector2 force = new UnityEngine.Vector2(HorizontalInput * moveforce, 0);
         rb.AddForce(force); 
+        Debug.Log(rb.mass);
 }
+
 }
